@@ -1,16 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: saif0
-  Date: 5/15/2025
-  Time: 7:55 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page session="true" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
+<head><title>Register</title></head>
 <body>
-
+<h2>Register</h2>
+<form method="post" action="/register">
+    <input name="username" placeholder="Username"/><br>
+    <input name="password" type="password" placeholder="Password"/><br>
+    <button type="submit">Register</button>
+</form>
+<p>${msg}</p>
 </body>
 </html>
