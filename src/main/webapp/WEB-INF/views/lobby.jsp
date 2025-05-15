@@ -16,6 +16,7 @@
     <label>Enter Lobby Name:</label>
     <input type="text" name="lobby_name" placeholder="Lobby Name">
     <input type="submit" value="Submit">
+    hi
 </form>
 
 </body>
